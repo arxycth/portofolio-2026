@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: "Dimas Adiluhur Portfolio",
     images: [
       {
-        url: "https://arxy.my.id/og-image.png?v=new", // Opsional: Tambahkan gambar preview (1200x630px) di folder public
+        url: "https://arxy.my.id/images/og-image.png?v=new", // Opsional: Tambahkan gambar preview (1200x630px) di folder public
         width: 1200,
         height: 630,
         alt: "Dimas Adiluhur Panggarbesi - Portfolio",

@@ -76,7 +76,7 @@
     {
       "id": "obe-management-system",
       "title": "Outcome-Based Education (OBE) Management System",
-      "description": "Sistem manajemen skala universitas yang dirancang untuk merestrukturisasi, memetakan, dan memigrasikan data kurikulum akademik berbasis capaian pembelajaran.",
+      "description": "Sistem manajemen skala universitas yang dirancang untuk merestrukturisasi, memetakan, dan memigrasikan data kurikulum akademik berbasis capaian pembelajaran (OBE).",
       "category": "Web Application",
       "techStack": ["Laravel", "React", "MySQL", "Tailwind CSS"],
       "links": {
@@ -89,7 +89,7 @@
     {
       "id": "uin-parking-report",
       "title": "Whistleblowing Parkir Liar Berbasis Blockchain",
-      "description": "dApp whistleblowing untuk pelaporan parkir liar di lingkungan kampus UIN yang memanfaatkan blockchain Layer 2 Base guna menjaga integritas dan transparansi data laporan.",
+      "description": "dApp whistleblowing untuk pelaporan parkir liar di lingkungan kampus. Memanfaatkan teknologi blockchain Layer 2 Base untuk memastikan integritas, keamanan, dan transparansi data laporan secara desentralisasi.",
       "category": "Web3 & Blockchain",
       "techStack": [
         "Next.js",
@@ -105,6 +105,71 @@
       },
       "thumbnail": "/images/projects/Screenshot_12-7-2026_20318_uin-parking-report.arxy.my.id.jpeg",
       "featured": true
+    },
+    {
+      "id": "data-mahasiswa",
+      "title": "Sistem Administrasi & Audit Log Mahasiswa",
+      "description": "Sistem administrasi dan manajemen data mahasiswa yang dibangun menggunakan ekosistem Filament (TALL stack). Dilengkapi dengan panel dasbor interaktif dan fitur Audit Trail untuk melacak seluruh riwayat perubahan data (CRUD) secara real-time.",
+      "category": "Web Application",
+      "techStack": ["Laravel", "Filament", "PostgreSQL", "Railway"],
+      "links": {
+        "github": "",
+        "deploy": "https://data-mahasiswa.arxy.my.id/"
+      },
+      "thumbnail": "",
+      "featured": false
+    },
+    {
+      "id": "pelatihan-olimpiade",
+      "title": "Platform Tryout & Persiapan OMI",
+      "description": "Platform ujian simulasi (Tryout) untuk persiapan Olimpiade Madrasah Indonesia (OMI). Dilengkapi dengan integrasi payment gateway otomatis untuk memfasilitasi pembelian paket latihan soal guna memberikan pengalaman ujian yang realistis.",
+      "category": "Web Application",
+      "techStack": ["Laravel", "PostgreSQL", "Tailwind CSS", "Payment Gateway"],
+      "links": {
+        "github": "",
+        "deploy": "https://pelatihanolimpiade.com"
+      },
+      "thumbnail": "/images/projects/Screenshot_16-7-2026_185211_pelatihanolimpiade.com",
+      "featured": true
+    },
+    {
+      "id": "arxycth-playground",
+      "title": "Arxycth Playground",
+      "description": "Platform digital multifungsi yang berperan sebagai blog pribadi untuk berbagi wawasan software engineering dan berbagai teknologi terbaru.",
+      "category": "Blog",
+      "techStack": ["Laravel", "PostgreSQL", "Railway", "Tailwind CSS"],
+      "links": {
+        "github": "https://github.com/arxycth/playground",
+        "deploy": "https://playground.arxy.my.id/"
+      },
+      "thumbnail": "/images/projects/Screenshot_16-7-2026_18532_playground.arxy.my.id.jpeg",
+      "featured": false
+    },
+    {
+      "id": "portofolio-2026",
+      "title": "Portofolio Personal 2026",
+      "description": "Situs web portofolio generasi terbaru yang dirancang untuk menonjolkan perjalanan karir software engineering. Fokus pada performa tinggi, struktur komponen yang bersih, dan antarmuka pengguna yang modern.",
+      "category": "Web Application",
+      "techStack": ["Next.js", "React", "Tailwind CSS", "TypeScript"],
+      "links": {
+        "github": "https://github.com/arxycth/portofolio-2026",
+        "deploy": "https://arxy.my.id"
+      },
+      "thumbnail": "/images/projects/Screenshot_16-7-2026_185329_arxy.my.id",
+      "featured": true
+    },
+    {
+      "id": "old-portofolio",
+      "title": "Personal Portfolio (Versi Aceternity UI)",
+      "description": "Iterasi portofolio personal sebelumnya yang mengeksplorasi penggunaan pustaka komponen Aceternity UI untuk menyajikan efek visual, transisi, dan animasi antarmuka interaktif pada ekosistem React.",
+      "category": "Web Application",
+      "techStack": ["Next.js", "React", "Tailwind CSS", "Aceternity UI"],
+      "links": {
+        "github": "https://github.com/arxycth/portofolio",
+        "deploy": "https://old-portofolio.arxy.my.id"
+      },
+      "thumbnail": "/images/projects/Screenshot_16-7-2026_18547_old-portofolio.arxy.my.id",
+      "featured": false
     }
   ],
   "certifications": [

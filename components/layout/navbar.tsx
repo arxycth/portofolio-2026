@@ -282,6 +282,7 @@ export function Navbar({ navItems, themeOptions, personalInfo }: NavbarProps) {
                   <FaLinkedin className="h-5 w-5" />
                </a>
             </div>
+            
           </nav>
         </div>
       )}

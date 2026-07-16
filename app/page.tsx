@@ -18,6 +18,8 @@ import { EducationSection } from "../components/sections/education-section";
 import { ProjectsSection } from "../components/sections/projects-section";
 import { CertificationsSection } from "../components/sections/certifications-section";
 import { ContactSection } from "@/components/sections/contact-section";
+import SupportCard from "@/components/ui/supportCard";
+import FloatingSupportButton from "@/components/ui/floatingSupportButton";
 
 const portfolioData = portfolioDataRaw as PortfolioData;
 

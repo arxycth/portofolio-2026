@@ -208,7 +208,7 @@ export function ProjectsSection({
             <FolderGit2 className="h-6 w-6" />
           </div>
 
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
             Projects
           </h2>
         </div>
