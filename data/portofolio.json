@@ -129,7 +129,7 @@
         "github": "",
         "deploy": "https://pelatihanolimpiade.com"
       },
-      "thumbnail": "/images/projects/Screenshot_16-7-2026_185211_pelatihanolimpiade.com",
+      "thumbnail": "/images/projects/Screenshot_16-7-2026_185211_pelatihanolimpiade.com.jpeg",
       "featured": true
     },
     {
@@ -155,7 +155,7 @@
         "github": "https://github.com/arxycth/portofolio-2026",
         "deploy": "https://arxy.my.id"
       },
-      "thumbnail": "/images/projects/Screenshot_16-7-2026_185329_arxy.my.id",
+      "thumbnail": "/images/projects/Screenshot_16-7-2026_185329_arxy.my.id.jpeg",
       "featured": true
     },
     {
@@ -168,7 +168,7 @@
         "github": "https://github.com/arxycth/portofolio",
         "deploy": "https://old-portofolio.arxy.my.id"
       },
-      "thumbnail": "/images/projects/Screenshot_16-7-2026_18547_old-portofolio.arxy.my.id",
+      "thumbnail": "/images/projects/Screenshot_16-7-2026_18547_old-portofolio.arxy.my.id.jpeg",
       "featured": false
     }
   ],
