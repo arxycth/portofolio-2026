@@ -125,7 +125,7 @@ export function AboutSection({ about }: AboutSectionProps) {
                 <h4 className="font-medium">AI & Integrasi Model</h4>
               </div>
               <div className="flex flex-wrap gap-2">
-                {about.skills.ai_tools.map((skill) => (
+                {about.skills.web3_blockchain.map((skill) => (
                   <Badge key={skill} variant="secondary" className="bg-background text-foreground border border-border hover:border-primary transition-colors font-normal text-sm px-3 py-1">
                     {skill}
                   </Badge>

@@ -33,7 +33,7 @@ export interface HeroData {
 export interface Skills {
   frontend: string[];
   backend: string[];
-  ai_tools: string[];
+  web3_blockchain: string[];
   others: string[];
 }
 

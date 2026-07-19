@@ -13,7 +13,7 @@
     "location": "Jakarta, Indonesia",
     "email": "dimasadiluhur@gmail.com",
     "freelanceStatus": "Available for Projects",
-    "cvLink": "/docs/cv-dimas-adiluhur.pdf",
+    "cvLink": "/docs/CV-Dimas-Adiluhur-Panggarbesi-Fullstack-Developer.pdf",
     "socialLinks": {
       "github": "https://github.com/arxycth",
       "linkedin": "https://linkedin.com/in/dimas-adiluhur",
@@ -31,15 +31,15 @@
   ],
  "hero": {
     "title": "Crafting Scalable Web Applications & Decentralized Solutions",
-    "tagline": "Mahasiswa Teknik Informatika yang berfokus pada pengembangan aplikasi web modern, arsitektur backend yang efisien, serta eksplorasi teknologi Web3 dan kriptografi."
+    "tagline": "Mahasiswa Teknik Informatika yang berfokus pada pengembangan aplikasi web modern, arsitektur backend yang tangguh, serta solusi blockchain terdesentralisasi (Web3)."
   },
   "about": {
-    "biography": "Saya adalah seorang Full-stack Developer dengan ketertarikan pada arsitektur backend, teknologi Web3, dan kriptografi terapan. Aktif mengembangkan aplikasi web modern serta solusi terdesentralisasi berbasis blockchain.",
+    "biography": "Saya adalah seorang Full-stack Developer dengan ketertarikan kuat pada arsitektur backend dan teknologi Web3. Berpengalaman dalam merancang API yang efisien, mengelola basis data relasional skala besar, serta membangun aplikasi terdesentralisasi (dApps) berbasis smart contract.",
     "skills": {
       "frontend": ["React", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript"],
-      "backend": ["Laravel", "Node.js", "FastAPI", "Python", "PHP", "MySQL", "PostgreSQL"],
-      "ai_tools": ["LLM Integration (Qwen/OpenAI)", "RAG Architecture", "Vector Databases"],
-      "others": ["Blockchain Basics", "Cloud Infrastructure (OCI)", "Git & Github"]
+      "backend": ["Laravel", "FastAPI", "Node.js", "Python", "PHP", "MySQL", "PostgreSQL"],
+      "web3_blockchain": ["Blockchain Basics", "Solidity", "Ethers.js", "Base Layer 2", "Hardhat"],
+      "others": ["AWS","Oracle Cloud Infrastructure (OCI)", "Git & Github", "Filament (TALL Stack)"]
     },
     "languages": [
       { "name": "Indonesian", "level": "Native" },
@@ -51,14 +51,14 @@
     {
       "company": "Artificial Intelligence Literacy and Innovation Institute (ALII)",
       "role": "Backend Developer Intern",
-      "period": "Januari 2026 - Sekarang",
-      "description": "Bertanggung jawab dalam merancang dan mengembangkan sistem Retrieval-Augmented Generation (RAG) untuk analisis dokumen akademik. Membangun integrasi backend menggunakan bahasa Python dan LLM skala besar untuk memproses draf tesis mahasiswa secara efisien.",
-      "tags": ["Python", "FastAPI", "RAG", "LLM Integration", "Backend"]
+      "period": "Januari 2026 - April 2026",
+      "description": "Membangun arsitektur backend menggunakan Python dan FastAPI untuk mendukung sistem Retrieval-Augmented Generation (RAG) dalam analisis dokumen akademik. Mengintegrasikan Large Language Models (LLM) ke dalam pipeline pemrosesan data untuk mengekstrak informasi terstruktur dari draf tesis mahasiswa secara efisien.",
+      "tags": ["Python", "FastAPI", "RAG", "LLM", "Backend Architecture"]
     },
     {
       "company": "Freelance Software Development",
       "role": "Full-stack Web Developer",
-      "period": "2024 - Sekarang",
+      "period": "September 2025 - Sekarang",
       "description": "Membangun, mengoptimalkan, dan memelihara aplikasi web kustom untuk berbagai klien menggunakan ekosistem Laravel dan Next.js. Berfokus pada penulisan kode yang bersih, arsitektur database yang efisien, serta antarmuka yang responsif.",
       "tags": ["Laravel", "React", "Next.js", "Tailwind CSS", "MySQL", "RESTful API"]
     }
@@ -68,8 +68,8 @@
       "institution": "UIN Syarif Hidayatullah Jakarta",
       "degree": "S1 Teknik Informatika (Informatics Engineering)",
       "period": "2023 - Sekarang",
-      "gpa": "3.82 / 4.00",
-      "details": "Saat ini menempuh Semester 7 dengan ketertarikan pada Rekayasa Perangkat Lunak, Pengembangan Web, Basis Data, dan Keamanan Sistem. Aktif terlibat dalam berbagai proyek pengembangan aplikasi baik di lingkungan akademik maupun profesional."
+      "gpa": "3.90 / 4.00",
+      "details": "Saat ini menempuh Semester 7 dengan ketertarikan pada Rekayasa Perangkat Lunak, Pengembangan Web, Arsitektur Basis Data, dan Keamanan Sistem. Aktif terlibat dalam berbagai proyek pengembangan aplikasi baik di lingkungan akademik maupun profesional."
     }
   ],
   "projects": [
@@ -117,7 +117,7 @@
         "deploy": "https://data-mahasiswa.arxy.my.id/"
       },
       "thumbnail": "",
-      "featured": false
+      "featured": true
     },
     {
       "id": "pelatihan-olimpiade",
@@ -156,7 +156,7 @@
         "deploy": "https://arxy.my.id"
       },
       "thumbnail": "/images/projects/Screenshot_16-7-2026_185329_arxy.my.id.jpeg",
-      "featured": true
+      "featured": false
     },
     {
       "id": "old-portofolio",

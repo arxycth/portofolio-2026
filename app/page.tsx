@@ -1,16 +1,14 @@
 "use client";
 
-import { useEffect, useState } from "react";
-
 // Import Data JSON dan Types
 import portfolioDataRaw from "../data/portofolio.json";
 import { PortfolioData } from "../types";
 
-// Import Komponen Navigasi & Footer (Akan kita buat nanti)
+// Import Komponen Navigasi & Footer
 import { Navbar } from "../components/layout/navbar";
 import { Footer } from "../components/layout/footer";
 
-// Import Komponen Section (Akan kita buat nanti)
+// Import Komponen Section
 import { HeroSection } from "../components/sections/hero-section";
 import { AboutSection } from "../components/sections/about-section";
 import { ExperienceSection } from "../components/sections/experience-section";
@@ -18,23 +16,17 @@ import { EducationSection } from "../components/sections/education-section";
 import { ProjectsSection } from "../components/sections/projects-section";
 import { CertificationsSection } from "../components/sections/certifications-section";
 import { ContactSection } from "@/components/sections/contact-section";
+
+// Import UI Bantuan
 import SupportCard from "@/components/ui/supportCard";
 import FloatingSupportButton from "@/components/ui/floatingSupportButton";
 
 const portfolioData = portfolioDataRaw as PortfolioData;
 
 export default function Home() {
-  const [mounted, setMounted] = useState(false);
-
-  // Mencegah hydration mismatch pada Next.js saat rendering tema
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  if (!mounted) return null;
-
   return (
-    <div className="min-h-screen bg-background text-foreground transition-colors duration-300 font-sans selection:bg-primary/30">
+    // Tambahkan 'relative' di wrapper utama agar Floating Button tidak keluar jalur
+    <div className="relative min-h-screen bg-background text-foreground transition-colors duration-300 font-sans selection:bg-primary/30 overflow-x-hidden">
       
       {/* Komponen Navigasi Global */}
       <Navbar 
@@ -82,7 +74,7 @@ export default function Home() {
       <Footer 
         personalInfo={portfolioData.personalInfo} 
       />
-
+      
     </div>
   );
 }
