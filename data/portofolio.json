@@ -87,6 +87,26 @@
       "featured": true
     },
     {
+      "id": "tsunderepay",
+      "title": "TsunderePay",
+      "description": "Wallet Web3 eksperimental dengan asisten karakter tsundere yang bereaksi secara dinamis terhadap setiap interaksi pengguna. Menggabungkan pengalaman blockchain modern dengan state-driven dialogue, multi-chain wallet, estimasi gas, dan antarmuka yang lebih personal.",
+      "category": "Web3 & Blockchain",
+      "techStack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Wagmi",
+        "Viem",
+        "Shadcn UI"
+      ],
+      "links": {
+        "github": "https://github.com/arxycth/tsundere-pay",
+        "deploy": "https://tsunderepay.arxy.my.id"
+      },
+      "thumbnail": "/images/projects/Screenshot_6-8-2026_193648_tsunderepay.arxy.my.id.jpeg",
+      "featured": true
+    },
+    {
       "id": "uin-parking-report",
       "title": "Whistleblowing Parkir Liar Berbasis Blockchain",
       "description": "dApp whistleblowing untuk pelaporan parkir liar di lingkungan kampus. Memanfaatkan teknologi blockchain Layer 2 Base untuk memastikan integritas, keamanan, dan transparansi data laporan secara desentralisasi.",
