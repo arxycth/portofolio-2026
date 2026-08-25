@@ -18,6 +18,7 @@ import { AboutSection } from "@/components/sections/about-section";
 import { ExperienceSection } from "@/components/sections/experience-section";
 import { EducationSection } from "@/components/sections/education-section";
 import { ProjectsSection } from "@/components/sections/projects-section";
+import { CertificationsSection } from "@/components/sections/certifications-section";
 import { ContactSection } from "@/components/sections/contact-section";
 
 // Mapping data berdasarkan locale
@@ -73,6 +74,10 @@ export default async function Home({
         <EducationSection education={portfolioData.education} />
 
         <ProjectsSection projects={portfolioData.projects} />
+
+        {/* <CertificationsSection 
+          certifications={portfolioData.certifications} 
+        /> */}
 
         <ContactSection
           contact={portfolioData.contact}

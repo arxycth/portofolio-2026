@@ -1,16 +1,16 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { CertificationData } from "../../types";
+import { CertificationsData } from "../../types"; // Menggunakan tipe data utuh
 import { Award, ExternalLink, CalendarDays } from "lucide-react";
 
 interface CertificationsSectionProps {
-  certifications: CertificationData[];
+  certifications: CertificationsData; // Menerima seluruh objek data
 }
 
 export function CertificationsSection({ certifications }: CertificationsSectionProps) {
-  // Jika tidak ada data sertifikasi, tidak perlu me-render section ini
-  if (!certifications || certifications.length === 0) return null;
+  // Cek apakah ada data items, jika tidak ada tidak usah render
+  if (!certifications?.items || certifications.items.length === 0) return null;
 
   return (
     <section id="certifications" className="py-24 border-t border-border">
@@ -26,12 +26,16 @@ export function CertificationsSection({ certifications }: CertificationsSectionP
         <div className="p-3 bg-primary/10 rounded-xl text-primary">
           <Award className="h-6 w-6" />
         </div>
-        <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Sertifikasi</h2>
+        {/* Menggunakan title dari JSON agar mendukung multi-bahasa */}
+        <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+          {certifications.title}
+        </h2>
       </motion.div>
 
       {/* Grid Sertifikasi */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {certifications.map((cert, index) => (
+        {/* Mapping data dari certifications.items */}
+        {certifications.items.map((cert, index) => (
           <motion.div
             key={index}
             initial={{ opacity: 0, y: 20 }}
