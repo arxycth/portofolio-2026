@@ -2,54 +2,64 @@
 
 import { useMemo, useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { ProjectData } from "../../types";
+
+import { ProjectsData } from "../../types";
+
 import { Badge } from "../ui/badge";
 import { Input } from "../ui/input";
 import { Button } from "../ui/button";
+
 import {
   FolderGit2,
   ExternalLink,
   Search,
 } from "lucide-react";
+
 import { FaGithub } from "react-icons/fa6";
 
 interface ProjectsSectionProps {
-  projects: ProjectData[];
+  projects: ProjectsData;
 }
+
+type ProjectItem = ProjectsData["items"][number];
 
 export function ProjectsSection({
   projects,
 }: ProjectsSectionProps) {
   const [search, setSearch] = useState("");
-  const [category, setCategory] = useState("All");
-  const [visibleCount, setVisibleCount] = useState(6);
+  const [category, setCategory] = useState(
+    projects.filters.all
+  );
+  const [visibleCount, setVisibleCount] = useState(
+    projects.itemsPerLoad
+  );
 
   const categories = useMemo(() => {
     return [
-      "All",
+      projects.filters.all,
       ...new Set(
-        projects.map(
+        projects.items.map(
           (project) => project.category
         )
       ),
     ];
   }, [projects]);
 
-  const featuredCount = useMemo(
-    () =>
-      projects.filter(
-        (project) => project.featured
-      ).length,
-    [projects]
-  );
+  const featuredCount = useMemo(() => {
+    return projects.items.filter(
+      (project) => project.featured
+    ).length;
+  }, [projects]);
 
   const filteredProjects = useMemo(() => {
-    return projects
+    return projects.items
       .filter((project) => {
-        const keyword =
-          search.toLowerCase();
+        const keyword = search
+          .toLowerCase()
+          .trim();
 
         const matchesSearch =
+          keyword === "" ||
           project.title
             .toLowerCase()
             .includes(keyword) ||
@@ -66,7 +76,7 @@ export function ProjectsSection({
           );
 
         const matchesCategory =
-          category === "All" ||
+          category === projects.filters.all ||
           project.category === category;
 
         return (
@@ -77,16 +87,27 @@ export function ProjectsSection({
       .sort((a, b) => {
         if (
           a.featured === b.featured
-        )
+        ) {
           return 0;
+        }
 
         return a.featured ? -1 : 1;
       });
-  }, [projects, search, category]);
+  }, [
+    projects,
+    search,
+    category,
+  ]);
 
   useEffect(() => {
-    setVisibleCount(6);
-  }, [search, category]);
+    setVisibleCount(
+      projects.itemsPerLoad
+    );
+  }, [
+    search,
+    category,
+    projects.itemsPerLoad,
+  ]);
 
   const displayedProjects =
     filteredProjects.slice(
@@ -97,7 +118,7 @@ export function ProjectsSection({
   const ProjectCard = ({
     project,
   }: {
-    project: ProjectData;
+    project: ProjectItem;
   }) => (
     <motion.div
       initial={{
@@ -113,14 +134,13 @@ export function ProjectsSection({
       }}
       className="group flex flex-col rounded-2xl border border-border bg-card overflow-hidden hover:border-primary/30 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300"
     >
+      {/* Thumbnail */}
       <div className="relative h-56 overflow-hidden border-b border-border bg-muted">
         {project.thumbnail ? (
           <img
-            src={
-              project.thumbnail
-            }
+            src={project.thumbnail}
             alt={project.title}
-            className="w-full h-full object-cover object-top  transition-transform duration-500 group-hover:scale-105"
+            className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
           />
         ) : (
           <div className="flex items-center justify-center h-full">
@@ -131,12 +151,13 @@ export function ProjectsSection({
         {project.featured && (
           <div className="absolute top-4 left-4">
             <Badge>
-              ⭐ Featured
+              {projects.labels.featured}
             </Badge>
           </div>
         )}
       </div>
 
+      {/* Content */}
       <div className="flex flex-col grow p-6">
         <div className="mb-3 flex items-center justify-between gap-3">
           <Badge variant="secondary">
@@ -146,11 +167,10 @@ export function ProjectsSection({
           <div className="flex gap-3 shrink-0">
             {project.links?.github?.trim() && (
               <a
-                href={
-                  project.links.github
-                }
+                href={project.links.github}
                 target="_blank"
                 rel="noreferrer"
+                aria-label="GitHub"
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
                 <FaGithub className="h-5 w-5" />
@@ -159,11 +179,10 @@ export function ProjectsSection({
 
             {project.links?.deploy?.trim() && (
               <a
-                href={
-                  project.links.deploy
-                }
+                href={project.links.deploy}
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Live Demo"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 <ExternalLink className="h-5 w-5" />
@@ -181,16 +200,14 @@ export function ProjectsSection({
         </p>
 
         <div className="flex flex-wrap gap-2 mt-auto">
-          {project.techStack.map(
-            (tech) => (
-              <Badge
-                key={tech}
-                variant="outline"
-              >
-                {tech}
-              </Badge>
-            )
-          )}
+          {project.techStack.map((tech) => (
+            <Badge
+              key={tech}
+              variant="outline"
+            >
+              {tech}
+            </Badge>
+          ))}
         </div>
       </div>
     </motion.div>
@@ -209,18 +226,12 @@ export function ProjectsSection({
           </div>
 
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-            Projects
+            {projects.title}
           </h2>
         </div>
 
         <p className="max-w-2xl text-muted-foreground leading-relaxed">
-          Kumpulan proyek web,
-          backend, blockchain,
-          dan berbagai eksperimen
-          teknologi yang pernah saya
-          bangun selama proses
-          belajar maupun pengembangan
-          profesional.
+          {projects.description}
         </p>
       </div>
 
@@ -228,17 +239,17 @@ export function ProjectsSection({
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
         <div className="rounded-2xl border bg-card p-5">
           <p className="text-sm text-muted-foreground">
-            Total Projects
+            {projects.statistics.total}
           </p>
 
           <p className="text-3xl font-bold mt-1">
-            {projects.length}
+            {projects.items.length}
           </p>
         </div>
 
         <div className="rounded-2xl border bg-card p-5">
           <p className="text-sm text-muted-foreground">
-            Featured Projects
+            {projects.statistics.featured}
           </p>
 
           <p className="text-3xl font-bold mt-1">
@@ -248,11 +259,14 @@ export function ProjectsSection({
 
         <div className="rounded-2xl border bg-card p-5">
           <p className="text-sm text-muted-foreground">
-            Categories
+            {projects.statistics.categories}
           </p>
 
           <p className="text-3xl font-bold mt-1">
-            {categories.length - 1}
+            {Math.max(
+              0,
+              categories.length - 1
+            )}
           </p>
         </div>
       </div>
@@ -265,10 +279,12 @@ export function ProjectsSection({
 
           <Input
             value={search}
-            onChange={(e) =>
-              setSearch(e.target.value)
+            onChange={(event) =>
+              setSearch(event.target.value)
             }
-            placeholder="Cari project, kategori, atau teknologi..."
+            placeholder={
+              projects.search.placeholder
+            }
             className="h-11 pl-10"
           />
         </div>
@@ -279,7 +295,10 @@ export function ProjectsSection({
             {categories.map((cat) => (
               <button
                 key={cat}
-                onClick={() => setCategory(cat)}
+                type="button"
+                onClick={() =>
+                  setCategory(cat)
+                }
                 className={`pb-3 text-sm font-medium transition-colors border-b-2 ${
                   category === cat
                     ? "border-primary text-foreground"
@@ -296,30 +315,26 @@ export function ProjectsSection({
       {/* List Header */}
       <div className="flex items-center justify-between mb-6">
         <h3 className="text-2xl font-bold">
-          Semua Proyek
+          {projects.list.title}
         </h3>
 
         <span className="text-sm text-muted-foreground">
-          {
-            filteredProjects.length
-          }{" "}
-          proyek ditemukan
+          {filteredProjects.length}{" "}
+          {projects.list.resultLabel}
         </span>
       </div>
 
       {/* Empty State */}
-      {filteredProjects.length ===
-      0 ? (
+      {filteredProjects.length === 0 ? (
         <div className="rounded-2xl border py-20 text-center">
           <FolderGit2 className="h-10 w-10 mx-auto mb-4 text-muted-foreground" />
 
           <h4 className="font-semibold mb-2">
-            Proyek tidak ditemukan
+            {projects.emptyState.title}
           </h4>
 
           <p className="text-muted-foreground">
-            Coba gunakan kata kunci
-            atau kategori lain.
+            {projects.emptyState.description}
           </p>
         </div>
       ) : (
@@ -342,12 +357,13 @@ export function ProjectsSection({
                 size="lg"
                 onClick={() =>
                   setVisibleCount(
-                    (prev) =>
-                      prev + 6
+                    (previous) =>
+                      previous +
+                      projects.itemsPerLoad
                   )
                 }
               >
-                Muat Lebih Banyak
+                {projects.loadMoreLabel}
               </Button>
             </div>
           )}

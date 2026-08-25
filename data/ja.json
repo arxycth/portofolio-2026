@@ -1,0 +1,403 @@
+{
+  "themeOptions": [
+    { "label": "Nova", "value": "default" },
+    { "label": "Neo Brutalism", "value": "theme-neo-brutalism" },
+    { "label": "Modern Minimal", "value": "theme-modern-minimal" },
+    { "label": "MX Brutalism", "value": "theme-mx-brutalism" },
+    { "label": "Terminal", "value": "theme-terminal" },
+    { "label": "Cyberpunk", "value": "theme-cyberpunk" }
+  ],
+
+  "personalInfo": {
+    "name": "Dimas Adiluhur Panggarbesi",
+    "role": "フルスタック開発者 & Web3開発者",
+    "location": "ジャカルタ、インドネシア",
+    "email": "dimasadiluhur@gmail.com",
+    "freelanceStatus": "プロジェクト募集中",
+    "cvLink": "/docs/CV-Dimas-Adiluhur-Panggarbesi-Fullstack-Developer.pdf",
+    "socialLinks": {
+      "github": "https://github.com/arxycth",
+      "linkedin": "https://linkedin.com/in/dimas-adiluhur",
+      "twitter": "#",
+      "instagram": "https://instagram.com/dimasdlhr"
+    }
+  },
+
+  "navbar": [
+    { "label": "ホーム", "href": "#home" },
+    { "label": "自己紹介", "href": "#about" },
+    { "label": "経歴", "href": "#experience" },
+    { "label": "プロジェクト", "href": "#projects" },
+    { "label": "資格", "href": "#certifications" },
+    { "label": "お問い合わせ", "href": "#contact" }
+  ],
+
+  "hero": {
+    "greeting": "こんにちは、",
+    "title": "スケーラブルなWebアプリケーションと分散型ソリューションを創り出す",
+    "tagline": "モダンなWebアプリケーション開発、堅牢なバックエンドアーキテクチャ、そして分散型ブロックチェーンソリューション（Web3）に取り組む情報工学専攻の学生です。",
+    "actions": {
+      "projects": "プロジェクトを見る",
+      "cv": "履歴書をダウンロード",
+      "contact": "お問い合わせ"
+    }
+  },
+
+  "about": {
+    "sectionTitle": "自己紹介",
+    "profileTitle": "プロフィール",
+    "languagesTitle": "語学力",
+    "skillsTitle": "技術スキル",
+    "skillCategories": {
+      "frontend": "フロントエンド開発",
+      "backend": "バックエンド & データベース",
+      "web3_blockchain": "Web3 & ブロックチェーン",
+      "others": "その他のツール & エコシステム"
+    },
+    "biography": "私はバックエンドアーキテクチャとWeb3技術に強い関心を持つフルスタック開発者です。効率的なAPIの設計、大規模なリレーショナルデータベースの管理、そしてスマートコントラクトを基盤とした分散型アプリケーション（dApp）の開発に取り組んできました。",
+    "skills": {
+      "frontend": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "JavaScript"
+      ],
+      "backend": [
+        "Laravel",
+        "FastAPI",
+        "Node.js",
+        "Python",
+        "PHP",
+        "MySQL",
+        "PostgreSQL"
+      ],
+      "web3_blockchain": [
+        "Blockchain Basics",
+        "Solidity",
+        "Ethers.js",
+        "Base Layer 2",
+        "Hardhat"
+      ],
+      "others": [
+        "AWS",
+        "Oracle Cloud Infrastructure (OCI)",
+        "Git & Github",
+        "Filament (TALL Stack)"
+      ]
+    },
+    "languages": [
+      { "name": "インドネシア語", "level": "ネイティブ" },
+      { "name": "英語", "level": "ビジネスレベル" },
+      { "name": "日本語", "level": "初級（会話 / JLPT学習中）" }
+    ]
+  },
+
+  "experience": {
+    "title": "職務経歴",
+    "items": [
+      {
+        "company": "Artificial Intelligence Literacy and Innovation Institute (ALII)",
+        "role": "バックエンド開発インターン",
+        "period": "2026年1月 - 2026年4月",
+        "description": "PythonとFastAPIを使用してバックエンドアーキテクチャを構築し、学術文書の分析を支援するRetrieval-Augmented Generation（RAG）システムを開発しました。データ処理パイプラインにLarge Language Models（LLMs）を統合し、学生の卒業論文ドラフトから構造化された情報を効率的に抽出しました。",
+        "tags": [
+          "Python",
+          "FastAPI",
+          "RAG",
+          "LLM",
+          "Backend Architecture"
+        ]
+      },
+      {
+        "company": "Freelance Software Development",
+        "role": "フルスタックWeb開発者",
+        "period": "2025年9月 - 現在",
+        "description": "LaravelとNext.jsのエコシステムを活用し、さまざまなクライアント向けにカスタムWebアプリケーションの開発、最適化、保守を行っています。クリーンなコード、効率的なデータベースアーキテクチャ、そしてレスポンシブなインターフェースを重視しています。",
+        "tags": [
+          "Laravel",
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "MySQL",
+          "RESTful API"
+        ]
+      }
+    ]
+  },
+
+  "education": {
+    "title": "学歴",
+    "gradeLabel": "GPA",
+    "items": [
+      {
+        "institution": "UIN Syarif Hidayatullah Jakarta",
+        "degree": "情報工学学士",
+        "period": "2023年 - 現在",
+        "gpa": "3.90 / 4.00",
+        "details": "現在7学期目で、ソフトウェア工学、Web開発、データベースアーキテクチャ、システムセキュリティに関心を持っています。大学内外のさまざまなアプリケーション開発プロジェクトに積極的に参加しています。"
+      }
+    ]
+  },
+
+  "projects": {
+    "title": "プロジェクト",
+    "description": "学習や専門的な開発活動を通じて構築してきた、Web、バックエンド、ブロックチェーン、およびさまざまな技術実験のプロジェクトをご紹介します。",
+    "statistics": {
+      "total": "プロジェクト総数",
+      "featured": "注目プロジェクト",
+      "categories": "カテゴリー"
+    },
+    "search": {
+      "placeholder": "プロジェクト、カテゴリー、技術を検索..."
+    },
+    "filters": {
+      "all": "すべて"
+    },
+    "labels": {
+      "featured": "⭐ 注目"
+    },
+    "list": {
+      "title": "すべてのプロジェクト",
+      "resultLabel": "件"
+    },
+    "emptyState": {
+      "title": "プロジェクトが見つかりません",
+      "description": "別のキーワードやカテゴリーをお試しください。"
+    },
+    "loadMoreLabel": "もっと見る",
+    "itemsPerLoad": 6,
+    "items": [
+      {
+        "id": "obe-management-system",
+        "title": "Outcome-Based Education (OBE) Management System",
+        "description": "Outcome-Based Education（OBE）に基づく大学規模の学術カリキュラムデータを再構成、マッピング、移行するために設計された大学向け管理システムです。",
+        "category": "Webアプリケーション",
+        "techStack": [
+          "Laravel",
+          "React",
+          "MySQL",
+          "Tailwind CSS"
+        ],
+        "links": {
+          "github": "",
+          "deploy": "https://layanan-obe.uinjakarta.id/"
+        },
+        "thumbnail": "/images/projects/Screenshot_12-7-2026_20234_layanan-obe.uinjakarta.id.jpeg",
+        "featured": true
+      },
+      {
+        "id": "tsunderepay",
+        "title": "TsunderePay",
+        "description": "ユーザーの操作に対して動的に反応するツンデレキャラクターアシスタントを搭載した実験的なWeb3ウォレットです。モダンなブロックチェーン体験と、state-driven dialogue、マルチチェーンウォレット、ガス代見積もり、そしてよりパーソナライズされたインターフェースを融合しています。",
+        "category": "Web3 & ブロックチェーン",
+        "techStack": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Wagmi",
+          "Viem",
+          "Shadcn UI"
+        ],
+        "links": {
+          "github": "https://github.com/arxycth/tsundere-pay",
+          "deploy": "https://tsunderepay.arxy.my.id"
+        },
+        "thumbnail": "/images/projects/Screenshot_6-8-2026_193648_tsunderepay.arxy.my.id.jpeg",
+        "featured": true
+      },
+      {
+        "id": "uin-parking-report",
+        "title": "ブロックチェーンベースの違法駐車通報システム",
+        "description": "大学キャンパス内の違法駐車を報告するためのdAppです。Base Layer 2を活用し、分散型アーキテクチャによって報告データの完全性、安全性、透明性を確保しています。",
+        "category": "Web3 & ブロックチェーン",
+        "techStack": [
+          "Next.js",
+          "TypeScript",
+          "Solidity",
+          "Base",
+          "Ethers.js",
+          "Tailwind CSS"
+        ],
+        "links": {
+          "github": "https://github.com/arxycth/uin-parking-next",
+          "deploy": "https://uin-parking-report.arxy.my.id/"
+        },
+        "thumbnail": "/images/projects/Screenshot_12-7-2026_20318_uin-parking-report.arxy.my.id.jpeg",
+        "featured": true
+      },
+      {
+        "id": "data-mahasiswa",
+        "title": "学生情報管理・監査ログシステム",
+        "description": "Filament（TALL Stack）を使用して構築された学生情報の管理・運用システムです。インタラクティブなダッシュボードと監査ログを備え、CRUD操作によるデータ変更をリアルタイムで追跡できます。",
+        "category": "Webアプリケーション",
+        "techStack": [
+          "Laravel",
+          "Filament",
+          "PostgreSQL",
+          "Railway"
+        ],
+        "links": {
+          "github": "",
+          "deploy": "https://data-mahasiswa.arxy.my.id/"
+        },
+        "thumbnail": "",
+        "featured": true
+      },
+      {
+        "id": "pelatihan-olimpiade",
+        "title": "OMI模試・対策プラットフォーム",
+        "description": "Olimpiade Madrasah Indonesia（OMI）対策のためのオンライン模擬試験（Tryout）プラットフォームです。練習問題パッケージの購入に対応する自動決済ゲートウェイを統合し、より現実的な試験体験を提供します。",
+        "category": "Webアプリケーション",
+        "techStack": [
+          "Laravel",
+          "PostgreSQL",
+          "Tailwind CSS",
+          "Payment Gateway"
+        ],
+        "links": {
+          "github": "",
+          "deploy": "https://pelatihanolimpiade.com"
+        },
+        "thumbnail": "/images/projects/Screenshot_16-7-2026_185211_pelatihanolimpiade.com.jpeg",
+        "featured": true
+      },
+      {
+        "id": "arxycth-playground",
+        "title": "Arxycth Playground",
+        "description": "ソフトウェアエンジニアリングに関する知識や最新テクノロジーを発信する個人ブログとして機能する多目的デジタルプラットフォームです。",
+        "category": "ブログ",
+        "techStack": [
+          "Laravel",
+          "PostgreSQL",
+          "Railway",
+          "Tailwind CSS"
+        ],
+        "links": {
+          "github": "https://github.com/arxycth/playground",
+          "deploy": "https://playground.arxy.my.id/"
+        },
+        "thumbnail": "/images/projects/Screenshot_16-7-2026_18532_playground.arxy.my.id.jpeg",
+        "featured": false
+      },
+      {
+        "id": "portofolio-2026",
+        "title": "個人ポートフォリオ 2026",
+        "description": "ソフトウェアエンジニアリングにおける自身の歩みを紹介するために設計したモダンなポートフォリオサイトです。高いパフォーマンス、クリーンなコンポーネント構成、モダンなユーザーインターフェースに重点を置いています。",
+        "category": "Webアプリケーション",
+        "techStack": [
+          "Next.js",
+          "React",
+          "Tailwind CSS",
+          "TypeScript"
+        ],
+        "links": {
+          "github": "https://github.com/arxycth/portofolio-2026",
+          "deploy": "https://arxy.my.id"
+        },
+        "thumbnail": "/images/projects/Screenshot_16-7-2026_185329_arxy.my.id.jpeg",
+        "featured": false
+      },
+      {
+        "id": "old-portofolio",
+        "title": "個人ポートフォリオ（Aceternity UI版）",
+        "description": "Aceternity UIコンポーネントライブラリを活用し、React環境でビジュアルエフェクト、トランジション、インタラクティブなUIアニメーションを探求した以前の個人ポートフォリオです。",
+        "category": "Webアプリケーション",
+        "techStack": [
+          "Next.js",
+          "React",
+          "Tailwind CSS",
+          "Aceternity UI"
+        ],
+        "links": {
+          "github": "https://github.com/arxycth/portofolio",
+          "deploy": "https://old-portofolio.arxy.my.id"
+        },
+        "thumbnail": "/images/projects/Screenshot_16-7-2026_18547_old-portofolio.arxy.my.id.jpeg",
+        "featured": false
+      }
+    ]
+  },
+
+  "certifications": {
+    "title": "資格・認定",
+    "items": [
+      {
+        "title": "Oracle Cloud Infrastructure Foundations Associate",
+        "issuer": "Oracle Academy",
+        "date": "2026年5月",
+        "credentialUrl": "https://example.com/oracle-cert-verification"
+      }
+    ]
+  },
+
+  "contact": {
+    "badge": "新しい機会を募集中",
+    "title": "価値あるものを一緒に創りませんか",
+    "highlight": "価値あるもの",
+    "description": "現在、フリーランス、インターンシップ、デジタルプロダクト開発、Web開発およびブロックチェーン関連プロジェクトでのコラボレーションに関する機会を募集しています。",
+    "availability": "コラボレーション受付中",
+    "primaryButton": {
+      "label": "相談を始める",
+      "type": "email"
+    },
+    "secondaryButton": {
+      "label": "LinkedInを見る",
+      "url": "https://linkedin.com/in/dimas-adiluhur"
+    }
+  },
+
+  "footer": {
+    "description": "モダンな開発、バックエンドアーキテクチャ、Web3技術を中心に、スケーラブルなWebアプリケーションとデジタルソリューションを構築しています。",
+    "navigation": {
+      "title": "ナビゲーション",
+      "items": [
+        { "label": "ホーム", "href": "#home" },
+        { "label": "自己紹介", "href": "#about" },
+        { "label": "経歴", "href": "#experience" },
+        { "label": "プロジェクト", "href": "#projects" },
+        { "label": "お問い合わせ", "href": "#contact" }
+      ]
+    },
+    "social": {
+      "title": "つながる",
+      "labels": {
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "twitter": "Twitter",
+        "instagram": "Instagram"
+      }
+    },
+    "copyright": {
+      "text": "©",
+      "rights": "All rights reserved."
+    },
+    "builtWith": {
+      "text": "使用技術",
+      "technologies": [
+        "Next.js",
+        "shadcn/ui"
+      ]
+    }
+  },
+  "metadata": {
+    "title": "Dimas Adiluhur Panggarbesi | フルスタックWeb開発者",
+    "description": "Dimas Adiluhur Panggarbesiのポートフォリオ。情報工学を専攻し、モダンなWebアプリケーション、バックエンドアーキテクチャ、Web3技術を中心に開発しています。",
+    "keywords": [
+      "Dimas Adiluhur Panggarbesi",
+      "フルスタック開発者",
+      "バックエンド開発者",
+      "Web開発者",
+      "ソフトウェアエンジニア",
+      "情報工学",
+      "Next.js",
+      "Laravel",
+      "React",
+      "Web3",
+      "ブロックチェーン",
+      "ポートフォリオ"
+    ],
+    "locale": "ja_JP",
+    "openGraphTitle": "Dimas Adiluhur Panggarbesi | Portfolio"
+  }
+}

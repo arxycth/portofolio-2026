@@ -1,0 +1,403 @@
+{
+  "themeOptions": [
+    { "label": "Nova", "value": "default" },
+    { "label": "Neo Brutalism", "value": "theme-neo-brutalism" },
+    { "label": "Modern Minimal", "value": "theme-modern-minimal" },
+    { "label": "MX Brutalism", "value": "theme-mx-brutalism" },
+    { "label": "Terminal", "value": "theme-terminal" },
+    { "label": "Cyberpunk", "value": "theme-cyberpunk" }
+  ],
+
+  "personalInfo": {
+    "name": "Dimas Adiluhur Panggarbesi",
+    "role": "Full-stack Developer & Web3 Developer",
+    "location": "Jakarta, Indonesia",
+    "email": "dimasadiluhur@gmail.com",
+    "freelanceStatus": "Terbuka untuk Proyek",
+    "cvLink": "/docs/CV-Dimas-Adiluhur-Panggarbesi-Fullstack-Developer.pdf",
+    "socialLinks": {
+      "github": "https://github.com/arxycth",
+      "linkedin": "https://linkedin.com/in/dimas-adiluhur",
+      "twitter": "#",
+      "instagram": "https://instagram.com/dimasdlhr"
+    }
+  },
+
+  "navbar": [
+    { "label": "Beranda", "href": "#home" },
+    { "label": "Tentang", "href": "#about" },
+    { "label": "Pengalaman", "href": "#experience" },
+    { "label": "Proyek", "href": "#projects" },
+    { "label": "Sertifikasi", "href": "#certifications" },
+    { "label": "Kontak", "href": "#contact" }
+  ],
+
+  "hero": {
+    "greeting": "Halo, saya",
+    "title": "Membangun Aplikasi Web Scalable & Solusi Terdesentralisasi",
+    "tagline": "Mahasiswa Teknik Informatika yang berfokus pada pengembangan aplikasi web modern, arsitektur backend yang tangguh, serta solusi blockchain terdesentralisasi (Web3).",
+    "actions": {
+      "projects": "Lihat Proyek",
+      "cv": "Download CV",
+      "contact": "Hubungi Saya"
+    }
+  },
+
+  "about": {
+    "sectionTitle": "Tentang Saya",
+    "profileTitle": "Sekilas Profil",
+    "languagesTitle": "Kemampuan Bahasa",
+    "skillsTitle": "Keahlian Teknis",
+    "skillCategories": {
+      "frontend": "Frontend Development",
+      "backend": "Backend & Database",
+      "web3_blockchain": "Web3 & Blockchain",
+      "others": "Lainnya (Tools & Ekosistem)"
+    },
+    "biography": "Saya adalah seorang Full-stack Developer dengan ketertarikan kuat pada arsitektur backend dan teknologi Web3. Berpengalaman dalam merancang API yang efisien, mengelola basis data relasional skala besar, serta membangun aplikasi terdesentralisasi (dApps) berbasis smart contract.",
+    "skills": {
+      "frontend": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "JavaScript"
+      ],
+      "backend": [
+        "Laravel",
+        "FastAPI",
+        "Node.js",
+        "Python",
+        "PHP",
+        "MySQL",
+        "PostgreSQL"
+      ],
+      "web3_blockchain": [
+        "Blockchain Basics",
+        "Solidity",
+        "Ethers.js",
+        "Base Layer 2",
+        "Hardhat"
+      ],
+      "others": [
+        "AWS",
+        "Oracle Cloud Infrastructure (OCI)",
+        "Git & Github",
+        "Filament (TALL Stack)"
+      ]
+    },
+    "languages": [
+      { "name": "Indonesia", "level": "Native" },
+      { "name": "English", "level": "Professional Working" },
+      { "name": "Japanese", "level": "Elementary (Conversational / JLPT Study)" }
+    ]
+  },
+
+  "experience": {
+    "title": "Pengalaman Kerja",
+    "items": [
+      {
+        "company": "Artificial Intelligence Literacy and Innovation Institute (ALII)",
+        "role": "Backend Developer Intern",
+        "period": "Januari 2026 - April 2026",
+        "description": "Membangun arsitektur backend menggunakan Python dan FastAPI untuk mendukung sistem Retrieval-Augmented Generation (RAG) dalam analisis dokumen akademik. Mengintegrasikan Large Language Models (LLMs) ke dalam pipeline pemrosesan data untuk mengekstrak informasi terstruktur dari draf tesis mahasiswa secara efisien.",
+        "tags": [
+          "Python",
+          "FastAPI",
+          "RAG",
+          "LLM",
+          "Backend Architecture"
+        ]
+      },
+      {
+        "company": "Freelance Software Development",
+        "role": "Full-stack Web Developer",
+        "period": "September 2025 - Sekarang",
+        "description": "Membangun, mengoptimalkan, dan memelihara aplikasi web kustom untuk berbagai klien menggunakan ekosistem Laravel dan Next.js. Berfokus pada penulisan kode yang bersih, arsitektur database yang efisien, serta antarmuka yang responsif.",
+        "tags": [
+          "Laravel",
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "MySQL",
+          "RESTful API"
+        ]
+      }
+    ]
+  },
+
+  "education": {
+    "title": "Pendidikan",
+    "gradeLabel": "IPK",
+    "items": [
+      {
+        "institution": "UIN Syarif Hidayatullah Jakarta",
+        "degree": "S1 Teknik Informatika",
+        "period": "2023 - Sekarang",
+        "gpa": "3.90 / 4.00",
+        "details": "Saat ini menempuh Semester 7 dengan ketertarikan pada Rekayasa Perangkat Lunak, Pengembangan Web, Arsitektur Basis Data, dan Keamanan Sistem. Aktif terlibat dalam berbagai proyek pengembangan aplikasi baik di lingkungan akademik maupun profesional."
+      }
+    ]
+  },
+
+  "projects": {
+    "title": "Proyek",
+    "description": "Kumpulan proyek web, backend, blockchain, dan berbagai eksperimen teknologi yang saya bangun selama proses belajar maupun pengembangan profesional.",
+    "statistics": {
+      "total": "Total Proyek",
+      "featured": "Proyek Unggulan",
+      "categories": "Kategori"
+    },
+    "search": {
+      "placeholder": "Cari proyek, kategori, atau teknologi..."
+    },
+    "filters": {
+      "all": "Semua"
+    },
+    "labels": {
+      "featured": "⭐ Unggulan"
+    },
+    "list": {
+      "title": "Semua Proyek",
+      "resultLabel": "proyek ditemukan"
+    },
+    "emptyState": {
+      "title": "Proyek tidak ditemukan",
+      "description": "Coba gunakan kata kunci atau kategori lain."
+    },
+    "loadMoreLabel": "Muat Lebih Banyak",
+    "itemsPerLoad": 6,
+    "items": [
+      {
+        "id": "obe-management-system",
+        "title": "Outcome-Based Education (OBE) Management System",
+        "description": "Sistem manajemen skala universitas yang dirancang untuk merestrukturisasi, memetakan, dan memigrasikan data kurikulum akademik berbasis Outcome-Based Education (OBE).",
+        "category": "Aplikasi Web",
+        "techStack": [
+          "Laravel",
+          "React",
+          "MySQL",
+          "Tailwind CSS"
+        ],
+        "links": {
+          "github": "",
+          "deploy": "https://layanan-obe.uinjakarta.id/"
+        },
+        "thumbnail": "/images/projects/Screenshot_12-7-2026_20234_layanan-obe.uinjakarta.id.jpeg",
+        "featured": true
+      },
+      {
+        "id": "tsunderepay",
+        "title": "TsunderePay",
+        "description": "Wallet Web3 eksperimental dengan asisten karakter tsundere yang bereaksi secara dinamis terhadap interaksi pengguna. Menggabungkan pengalaman blockchain modern dengan state-driven dialogue, multi-chain wallet, estimasi gas, dan antarmuka yang lebih personal.",
+        "category": "Web3 & Blockchain",
+        "techStack": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Wagmi",
+          "Viem",
+          "Shadcn UI"
+        ],
+        "links": {
+          "github": "https://github.com/arxycth/tsundere-pay",
+          "deploy": "https://tsunderepay.arxy.my.id"
+        },
+        "thumbnail": "/images/projects/Screenshot_6-8-2026_193648_tsunderepay.arxy.my.id.jpeg",
+        "featured": true
+      },
+      {
+        "id": "uin-parking-report",
+        "title": "Whistleblowing Parkir Liar Berbasis Blockchain",
+        "description": "dApp whistleblowing untuk pelaporan parkir liar di lingkungan kampus. Memanfaatkan blockchain Base Layer 2 untuk memastikan integritas, keamanan, dan transparansi data laporan melalui arsitektur terdesentralisasi.",
+        "category": "Web3 & Blockchain",
+        "techStack": [
+          "Next.js",
+          "TypeScript",
+          "Solidity",
+          "Base",
+          "Ethers.js",
+          "Tailwind CSS"
+        ],
+        "links": {
+          "github": "https://github.com/arxycth/uin-parking-next",
+          "deploy": "https://uin-parking-report.arxy.my.id/"
+        },
+        "thumbnail": "/images/projects/Screenshot_12-7-2026_20318_uin-parking-report.arxy.my.id.jpeg",
+        "featured": true
+      },
+      {
+        "id": "data-mahasiswa",
+        "title": "Sistem Administrasi & Audit Log Mahasiswa",
+        "description": "Sistem administrasi dan manajemen data mahasiswa yang dibangun menggunakan ekosistem Filament (TALL Stack). Dilengkapi dengan dasbor interaktif dan audit trail untuk melacak perubahan data pada operasi CRUD secara real-time.",
+        "category": "Aplikasi Web",
+        "techStack": [
+          "Laravel",
+          "Filament",
+          "PostgreSQL",
+          "Railway"
+        ],
+        "links": {
+          "github": "",
+          "deploy": "https://data-mahasiswa.arxy.my.id/"
+        },
+        "thumbnail": "",
+        "featured": true
+      },
+      {
+        "id": "pelatihan-olimpiade",
+        "title": "Platform Tryout & Persiapan OMI",
+        "description": "Platform ujian simulasi (Tryout) untuk persiapan Olimpiade Madrasah Indonesia (OMI). Dilengkapi integrasi payment gateway otomatis untuk pembelian paket latihan soal guna memberikan pengalaman ujian yang realistis.",
+        "category": "Aplikasi Web",
+        "techStack": [
+          "Laravel",
+          "PostgreSQL",
+          "Tailwind CSS",
+          "Payment Gateway"
+        ],
+        "links": {
+          "github": "",
+          "deploy": "https://pelatihanolimpiade.com"
+        },
+        "thumbnail": "/images/projects/Screenshot_16-7-2026_185211_pelatihanolimpiade.com.jpeg",
+        "featured": true
+      },
+      {
+        "id": "arxycth-playground",
+        "title": "Arxycth Playground",
+        "description": "Platform digital multifungsi yang berfungsi sebagai blog pribadi untuk berbagi wawasan software engineering dan mengeksplorasi berbagai teknologi terbaru.",
+        "category": "Blog",
+        "techStack": [
+          "Laravel",
+          "PostgreSQL",
+          "Railway",
+          "Tailwind CSS"
+        ],
+        "links": {
+          "github": "https://github.com/arxycth/playground",
+          "deploy": "https://playground.arxy.my.id/"
+        },
+        "thumbnail": "/images/projects/Screenshot_16-7-2026_18532_playground.arxy.my.id.jpeg",
+        "featured": false
+      },
+      {
+        "id": "portofolio-2026",
+        "title": "Portofolio Personal 2026",
+        "description": "Situs portofolio modern yang dirancang untuk menampilkan perjalanan saya di bidang software engineering dengan fokus pada performa tinggi, struktur komponen yang bersih, dan antarmuka pengguna yang modern.",
+        "category": "Aplikasi Web",
+        "techStack": [
+          "Next.js",
+          "React",
+          "Tailwind CSS",
+          "TypeScript"
+        ],
+        "links": {
+          "github": "https://github.com/arxycth/portofolio-2026",
+          "deploy": "https://arxy.my.id"
+        },
+        "thumbnail": "/images/projects/Screenshot_16-7-2026_185329_arxy.my.id.jpeg",
+        "featured": false
+      },
+      {
+        "id": "old-portofolio",
+        "title": "Portofolio Personal (Versi Aceternity UI)",
+        "description": "Iterasi sebelumnya dari portofolio personal yang mengeksplorasi penggunaan pustaka komponen Aceternity UI untuk menghadirkan efek visual, transisi, dan animasi antarmuka interaktif dalam ekosistem React.",
+        "category": "Aplikasi Web",
+        "techStack": [
+          "Next.js",
+          "React",
+          "Tailwind CSS",
+          "Aceternity UI"
+        ],
+        "links": {
+          "github": "https://github.com/arxycth/portofolio",
+          "deploy": "https://old-portofolio.arxy.my.id"
+        },
+        "thumbnail": "/images/projects/Screenshot_16-7-2026_18547_old-portofolio.arxy.my.id.jpeg",
+        "featured": false
+      }
+    ]
+  },
+
+  "certifications": {
+    "title": "Sertifikasi",
+    "items": [
+      {
+        "title": "Oracle Cloud Infrastructure Foundations Associate",
+        "issuer": "Oracle Academy",
+        "date": "Mei 2026",
+        "credentialUrl": "https://example.com/oracle-cert-verification"
+      }
+    ]
+  },
+
+  "contact": {
+    "badge": "Terbuka untuk Peluang",
+    "title": "Mari Bangun Sesuatu yang Berdampak",
+    "highlight": "Berdampak",
+    "description": "Saat ini saya terbuka untuk peluang freelance, internship, pengembangan produk digital, maupun kolaborasi dalam proyek berbasis Web Development dan Blockchain.",
+    "availability": "Tersedia untuk Kolaborasi",
+    "primaryButton": {
+      "label": "Mulai Diskusi",
+      "type": "email"
+    },
+    "secondaryButton": {
+      "label": "Lihat LinkedIn",
+      "url": "https://linkedin.com/in/dimas-adiluhur"
+    }
+  },
+
+  "footer": {
+    "description": "Membangun aplikasi web scalable dan solusi digital dengan fokus pada pengembangan modern, arsitektur backend, dan teknologi Web3.",
+    "navigation": {
+      "title": "Navigasi",
+      "items": [
+        { "label": "Beranda", "href": "#home" },
+        { "label": "Tentang", "href": "#about" },
+        { "label": "Pengalaman", "href": "#experience" },
+        { "label": "Proyek", "href": "#projects" },
+        { "label": "Kontak", "href": "#contact" }
+      ]
+    },
+    "social": {
+      "title": "Mari Terhubung",
+      "labels": {
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "twitter": "Twitter",
+        "instagram": "Instagram"
+      }
+    },
+    "copyright": {
+      "text": "©",
+      "rights": "Hak cipta dilindungi."
+    },
+    "builtWith": {
+      "text": "Dibangun dengan",
+      "technologies": [
+        "Next.js",
+        "shadcn/ui"
+      ]
+    }
+  },
+  "metadata": {
+    "title": "Dimas Adiluhur Panggarbesi | Full-Stack Web Developer",
+    "description": "Portofolio profesional Dimas Adiluhur Panggarbesi, mahasiswa Teknik Informatika dan Full-Stack Web Developer yang berfokus pada pengembangan aplikasi web modern, arsitektur backend, dan teknologi Web3.",
+    "keywords": [
+      "Dimas Adiluhur Panggarbesi",
+      "Full-Stack Developer",
+      "Backend Developer",
+      "Web Developer",
+      "Software Engineer",
+      "Teknik Informatika",
+      "Next.js",
+      "Laravel",
+      "React",
+      "Web3",
+      "Blockchain",
+      "Portfolio"
+    ],
+    "locale": "id_ID",
+    "openGraphTitle": "Dimas Adiluhur Panggarbesi | Portfolio"
+  }
+}

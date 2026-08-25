@@ -1,0 +1,403 @@
+{
+  "themeOptions": [
+    { "label": "Nova", "value": "default" },
+    { "label": "Neo Brutalism", "value": "theme-neo-brutalism" },
+    { "label": "Modern Minimal", "value": "theme-modern-minimal" },
+    { "label": "MX Brutalism", "value": "theme-mx-brutalism" },
+    { "label": "Terminal", "value": "theme-terminal" },
+    { "label": "Cyberpunk", "value": "theme-cyberpunk" }
+  ],
+
+  "personalInfo": {
+    "name": "Dimas Adiluhur Panggarbesi",
+    "role": "Full-stack Developer & Web3 Developer",
+    "location": "Jakarta, Indonesia",
+    "email": "dimasadiluhur@gmail.com",
+    "freelanceStatus": "Open to Projects",
+    "cvLink": "/docs/CV-Dimas-Adiluhur-Panggarbesi-Fullstack-Developer.pdf",
+    "socialLinks": {
+      "github": "https://github.com/arxycth",
+      "linkedin": "https://linkedin.com/in/dimas-adiluhur",
+      "twitter": "#",
+      "instagram": "https://instagram.com/dimasdlhr"
+    }
+  },
+
+  "navbar": [
+    { "label": "Home", "href": "#home" },
+    { "label": "About", "href": "#about" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Certifications", "href": "#certifications" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+
+  "hero": {
+    "greeting": "Hi, I'm",
+    "title": "Crafting Scalable Web Applications & Decentralized Solutions",
+    "tagline": "Informatics Engineering student focused on developing modern web applications, robust backend architectures, and decentralized blockchain solutions (Web3).",
+    "actions": {
+      "projects": "View Projects",
+      "cv": "Download CV",
+      "contact": "Contact Me"
+    }
+  },
+
+  "about": {
+    "sectionTitle": "About Me",
+    "profileTitle": "Profile Overview",
+    "languagesTitle": "Languages",
+    "skillsTitle": "Technical Skills",
+    "skillCategories": {
+      "frontend": "Frontend Development",
+      "backend": "Backend & Database",
+      "web3_blockchain": "Web3 & Blockchain",
+      "others": "Other Tools & Ecosystem"
+    },
+    "biography": "I am a Full-stack Developer with a strong interest in backend architecture and Web3 technologies. Experienced in designing efficient APIs, managing large-scale relational databases, and building smart contract-based decentralized applications (dApps).",
+    "skills": {
+      "frontend": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "JavaScript"
+      ],
+      "backend": [
+        "Laravel",
+        "FastAPI",
+        "Node.js",
+        "Python",
+        "PHP",
+        "MySQL",
+        "PostgreSQL"
+      ],
+      "web3_blockchain": [
+        "Blockchain Basics",
+        "Solidity",
+        "Ethers.js",
+        "Base Layer 2",
+        "Hardhat"
+      ],
+      "others": [
+        "AWS",
+        "Oracle Cloud Infrastructure (OCI)",
+        "Git & Github",
+        "Filament (TALL Stack)"
+      ]
+    },
+    "languages": [
+      { "name": "Indonesian", "level": "Native" },
+      { "name": "English", "level": "Professional Working" },
+      { "name": "Japanese", "level": "Elementary (Conversational / JLPT Study)" }
+    ]
+  },
+
+  "experience": {
+    "title": "Work Experience",
+    "items": [
+      {
+        "company": "Artificial Intelligence Literacy and Innovation Institute (ALII)",
+        "role": "Backend Developer Intern",
+        "period": "January 2026 - April 2026",
+        "description": "Built backend architecture using Python and FastAPI to support a Retrieval-Augmented Generation (RAG) system for academic document analysis. Integrated Large Language Models (LLMs) into the data processing pipeline to efficiently extract structured information from student thesis drafts.",
+        "tags": [
+          "Python",
+          "FastAPI",
+          "RAG",
+          "LLM",
+          "Backend Architecture"
+        ]
+      },
+      {
+        "company": "Freelance Software Development",
+        "role": "Full-stack Web Developer",
+        "period": "September 2025 - Present",
+        "description": "Built, optimized, and maintained custom web applications for various clients using the Laravel and Next.js ecosystems. Focused on writing clean code, efficient database architectures, and responsive interfaces.",
+        "tags": [
+          "Laravel",
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "MySQL",
+          "RESTful API"
+        ]
+      }
+    ]
+  },
+
+  "education": {
+    "title": "Education",
+    "gradeLabel": "GPA",
+    "items": [
+      {
+        "institution": "UIN Syarif Hidayatullah Jakarta",
+        "degree": "Bachelor of Informatics Engineering",
+        "period": "2023 - Present",
+        "gpa": "3.90 / 4.00",
+        "details": "Currently in my 7th semester with a keen interest in Software Engineering, Web Development, Database Architecture, and System Security. Actively involved in various application development projects in both academic and professional environments."
+      }
+    ]
+  },
+
+  "projects": {
+    "title": "Projects",
+    "description": "A collection of web, backend, blockchain, and technology experiments I have built throughout my learning journey and professional development.",
+    "statistics": {
+      "total": "Total Projects",
+      "featured": "Featured Projects",
+      "categories": "Categories"
+    },
+    "search": {
+      "placeholder": "Search projects, categories, or technologies..."
+    },
+    "filters": {
+      "all": "All"
+    },
+    "labels": {
+      "featured": "⭐ Featured"
+    },
+    "list": {
+      "title": "All Projects",
+      "resultLabel": "projects found"
+    },
+    "emptyState": {
+      "title": "No Projects Found",
+      "description": "Try using a different keyword or category."
+    },
+    "loadMoreLabel": "Load More",
+    "itemsPerLoad": 6,
+    "items": [
+      {
+        "id": "obe-management-system",
+        "title": "Outcome-Based Education (OBE) Management System",
+        "description": "A university-scale management system designed to restructure, map, and migrate academic curriculum data based on Outcome-Based Education (OBE).",
+        "category": "Web Application",
+        "techStack": [
+          "Laravel",
+          "React",
+          "MySQL",
+          "Tailwind CSS"
+        ],
+        "links": {
+          "github": "",
+          "deploy": "https://layanan-obe.uinjakarta.id/"
+        },
+        "thumbnail": "/images/projects/Screenshot_12-7-2026_20234_layanan-obe.uinjakarta.id.jpeg",
+        "featured": true
+      },
+      {
+        "id": "tsunderepay",
+        "title": "TsunderePay",
+        "description": "An experimental Web3 wallet featuring a tsundere character assistant that reacts dynamically to user interactions. Combines modern blockchain experiences with state-driven dialogue, multi-chain wallets, gas estimation, and a highly personalized interface.",
+        "category": "Web3 & Blockchain",
+        "techStack": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Wagmi",
+          "Viem",
+          "Shadcn UI"
+        ],
+        "links": {
+          "github": "https://github.com/arxycth/tsundere-pay",
+          "deploy": "https://tsunderepay.arxy.my.id"
+        },
+        "thumbnail": "/images/projects/Screenshot_6-8-2026_193648_tsunderepay.arxy.my.id.jpeg",
+        "featured": true
+      },
+      {
+        "id": "uin-parking-report",
+        "title": "Blockchain-Based Illegal Parking Whistleblowing",
+        "description": "A whistleblowing dApp for reporting illegal parking on campus. Built on Base Layer 2 to ensure the integrity, security, and transparency of reported data through a decentralized architecture.",
+        "category": "Web3 & Blockchain",
+        "techStack": [
+          "Next.js",
+          "TypeScript",
+          "Solidity",
+          "Base",
+          "Ethers.js",
+          "Tailwind CSS"
+        ],
+        "links": {
+          "github": "https://github.com/arxycth/uin-parking-next",
+          "deploy": "https://uin-parking-report.arxy.my.id/"
+        },
+        "thumbnail": "/images/projects/Screenshot_12-7-2026_20318_uin-parking-report.arxy.my.id.jpeg",
+        "featured": true
+      },
+      {
+        "id": "data-mahasiswa",
+        "title": "Student Data Administration & Audit Log System",
+        "description": "A student data administration and management system built using the Filament ecosystem (TALL stack). Features an interactive dashboard and an audit trail for tracking data changes across CRUD operations in real time.",
+        "category": "Web Application",
+        "techStack": [
+          "Laravel",
+          "Filament",
+          "PostgreSQL",
+          "Railway"
+        ],
+        "links": {
+          "github": "",
+          "deploy": "https://data-mahasiswa.arxy.my.id/"
+        },
+        "thumbnail": "",
+        "featured": true
+      },
+      {
+        "id": "pelatihan-olimpiade",
+        "title": "OMI Tryout & Preparation Platform",
+        "description": "A simulation exam (Tryout) platform for Indonesian Madrasah Olympiad (OMI) preparation. Includes automated payment gateway integration for purchasing practice question packages, providing a realistic exam experience.",
+        "category": "Web Application",
+        "techStack": [
+          "Laravel",
+          "PostgreSQL",
+          "Tailwind CSS",
+          "Payment Gateway"
+        ],
+        "links": {
+          "github": "",
+          "deploy": "https://pelatihanolimpiade.com"
+        },
+        "thumbnail": "/images/projects/Screenshot_16-7-2026_185211_pelatihanolimpiade.com.jpeg",
+        "featured": true
+      },
+      {
+        "id": "arxycth-playground",
+        "title": "Arxycth Playground",
+        "description": "A multifunctional digital platform that serves as a personal blog for sharing software engineering insights and exploring the latest technologies.",
+        "category": "Blog",
+        "techStack": [
+          "Laravel",
+          "PostgreSQL",
+          "Railway",
+          "Tailwind CSS"
+        ],
+        "links": {
+          "github": "https://github.com/arxycth/playground",
+          "deploy": "https://playground.arxy.my.id/"
+        },
+        "thumbnail": "/images/projects/Screenshot_16-7-2026_18532_playground.arxy.my.id.jpeg",
+        "featured": false
+      },
+      {
+        "id": "portofolio-2026",
+        "title": "Personal Portfolio 2026",
+        "description": "A modern portfolio website designed to showcase my journey in software engineering, with a focus on high performance, clean component structure, and a modern user interface.",
+        "category": "Web Application",
+        "techStack": [
+          "Next.js",
+          "React",
+          "Tailwind CSS",
+          "TypeScript"
+        ],
+        "links": {
+          "github": "https://github.com/arxycth/portofolio-2026",
+          "deploy": "https://arxy.my.id"
+        },
+        "thumbnail": "/images/projects/Screenshot_16-7-2026_185329_arxy.my.id.jpeg",
+        "featured": false
+      },
+      {
+        "id": "old-portofolio",
+        "title": "Personal Portfolio (Aceternity UI Version)",
+        "description": "A previous iteration of my personal portfolio exploring the Aceternity UI component library to deliver visual effects, transitions, and interactive interface animations within the React ecosystem.",
+        "category": "Web Application",
+        "techStack": [
+          "Next.js",
+          "React",
+          "Tailwind CSS",
+          "Aceternity UI"
+        ],
+        "links": {
+          "github": "https://github.com/arxycth/portofolio",
+          "deploy": "https://old-portofolio.arxy.my.id"
+        },
+        "thumbnail": "/images/projects/Screenshot_16-7-2026_18547_old-portofolio.arxy.my.id.jpeg",
+        "featured": false
+      }
+    ]
+  },
+
+  "certifications": {
+    "title": "Certifications",
+    "items": [
+      {
+        "title": "Oracle Cloud Infrastructure Foundations Associate",
+        "issuer": "Oracle Academy",
+        "date": "May 2026",
+        "credentialUrl": "https://example.com/oracle-cert-verification"
+      }
+    ]
+  },
+
+  "contact": {
+    "badge": "Open for Opportunities",
+    "title": "Let's Build Something Impactful",
+    "highlight": "Impactful",
+    "description": "I am currently open to freelance opportunities, internships, digital product development, and collaborations on Web Development and Blockchain-based projects.",
+    "availability": "Available for Collaboration",
+    "primaryButton": {
+      "label": "Start a Discussion",
+      "type": "email"
+    },
+    "secondaryButton": {
+      "label": "View LinkedIn",
+      "url": "https://linkedin.com/in/dimas-adiluhur"
+    }
+  },
+
+  "footer": {
+    "description": "Building scalable web applications and digital solutions with a focus on modern development, backend architecture, and Web3 technologies.",
+    "navigation": {
+      "title": "Navigation",
+      "items": [
+        { "label": "Home", "href": "#home" },
+        { "label": "About", "href": "#about" },
+        { "label": "Experience", "href": "#experience" },
+        { "label": "Projects", "href": "#projects" },
+        { "label": "Contact", "href": "#contact" }
+      ]
+    },
+    "social": {
+      "title": "Let's Connect",
+      "labels": {
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "twitter": "Twitter",
+        "instagram": "Instagram"
+      }
+    },
+    "copyright": {
+      "text": "©",
+      "rights": "All rights reserved."
+    },
+    "builtWith": {
+      "text": "Built with",
+      "technologies": [
+        "Next.js",
+        "shadcn/ui"
+      ]
+    }
+  },
+  "metadata": {
+  "title": "Dimas Adiluhur Panggarbesi | Full-Stack Web Developer",
+  "description": "Professional portfolio of Dimas Adiluhur Panggarbesi, an Informatics Engineering student and Full-Stack Web Developer focused on modern web applications, backend architecture, and Web3 technologies.",
+  "keywords": [
+      "Dimas Adiluhur Panggarbesi",
+      "Full-Stack Developer",
+      "Backend Developer",
+      "Web Developer",
+      "Software Engineer",
+      "Informatics Engineering",
+      "Next.js",
+      "Laravel",
+      "React",
+      "Web3",
+      "Blockchain",
+      "Portfolio"
+  ],
+  "locale": "en_US",
+  "openGraphTitle": "Dimas Adiluhur Panggarbesi | Portfolio"
+  }
+}
