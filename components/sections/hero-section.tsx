@@ -127,11 +127,9 @@ export function HeroSection({
             <ArrowRight className="ml-2 h-4 w-4" />
           </a>
 
-          {/* CV */}
           <a
             href={personalInfo.cvLink}
-            target="_blank"
-            rel="noreferrer"
+            download="CV Dimas Adiluhur Panggarbesi Fullstack Developer.pdf"
             className={buttonVariants({
               variant: "outline",
               size: "lg",
