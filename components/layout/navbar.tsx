@@ -105,7 +105,7 @@ export function Navbar({
     // Ambil hash aktif, misalnya #contact atau #projects
     const hash = window.location.hash;
 
-    router.push(`${newPathname}${hash}`);
+    router.push(`${newPathname}${hash}`, { scroll: false });
 
     setIsMobileMenuOpen(false);
   };
