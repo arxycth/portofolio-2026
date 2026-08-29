@@ -109,6 +109,7 @@ export default async function RootLayout({
     <html
       lang={currentLocale}
       suppressHydrationWarning
+      className="motion-safe:scroll-smooth"
     >
       <body
         className={`${inter.className} antialiased`}
