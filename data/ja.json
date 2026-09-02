@@ -187,6 +187,26 @@
         "featured": true
       },
       {
+        "id": "aero-pace",
+        "title": "AeroPace",
+        "description": "React Nativeで構築されたモバイル向けランニングトラッカーアプリ。カルボーネン法（年齢、安静時心拍数、BMIを考慮）を用いてパーソナライズされた有酸素トレーニングゾーンを計算し、Open-Meteoのリアルタイム気象データと連携してペースを調整します。即時GPSモニタリングとペースの平滑化（スムージング）機能も搭載しています。",
+        "category": "モバイルアプリ",
+        "techStack": [
+          "React Native",
+          "Expo",
+          "JavaScript",
+          "Tailwind CSS",
+          "Lucide Icons",
+          "Open-Meteo API"
+        ],
+        "links": {
+          "github": "https://github.com/arxycth/aeropace",
+          "deploy": "https://aeropace.arxy.my.id"
+        },
+        "thumbnail": "/images/projects/Screenshot_3-9-2026_43757_aeropace.arxy.my.id.jpeg",
+        "featured": true
+      },
+      {
         "id": "tsunderepay",
         "title": "TsunderePay",
         "description": "ユーザーの操作に対して動的に反応するツンデレキャラクターアシスタントを搭載した実験的なWeb3ウォレットです。モダンなブロックチェーン体験と、state-driven dialogue、マルチチェーンウォレット、ガス代見積もり、そしてよりパーソナライズされたインターフェースを融合しています。",

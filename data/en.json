@@ -187,6 +187,26 @@
         "featured": true
       },
       {
+        "id": "aero-pace",
+        "title": "AeroPace",
+        "description": "A React Native mobile running tracker that calculates personalized aerobic training zones using the Karvonen formula (factoring in Age, RHR, and BMI). It integrates real-time Open-Meteo weather data for pace adjustments and features instant GPS monitoring with pace smoothing.",
+        "category": "Mobile Application",
+        "techStack": [
+          "React Native",
+          "Expo",
+          "JavaScript",
+          "Tailwind CSS",
+          "Lucide Icons",
+          "Open-Meteo API"
+        ],
+        "links": {
+          "github": "https://github.com/arxycth/aeropace",
+          "deploy": "https://aeropace.arxy.my.id"
+        },
+        "thumbnail": "/images/projects/Screenshot_3-9-2026_43757_aeropace.arxy.my.id.jpeg",
+        "featured": true
+      },
+      {
         "id": "tsunderepay",
         "title": "TsunderePay",
         "description": "An experimental Web3 wallet featuring a tsundere character assistant that reacts dynamically to user interactions. Combines modern blockchain experiences with state-driven dialogue, multi-chain wallets, gas estimation, and a highly personalized interface.",

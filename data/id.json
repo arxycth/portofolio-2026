@@ -187,6 +187,26 @@
         "featured": true
       },
       {
+        "id": "aero-pace",
+        "title": "AeroPace",
+        "description": "Aplikasi pelacak lari berbasis mobile (React Native) yang menghitung zona latihan aerobik secara personal menggunakan rumus Karvonen (memperhitungkan Usia, RHR, dan BMI), terintegrasi dengan data cuaca real-time dari Open-Meteo untuk penyesuaian pace, serta dilengkapi pemantauan GPS instan dan penghalus kecepatan.",
+        "category": "Aplikasi Mobile",
+        "techStack": [
+          "React Native",
+          "Expo",
+          "JavaScript",
+          "Tailwind CSS",
+          "Lucide Icons",
+          "Open-Meteo API"
+        ],
+        "links": {
+          "github": "https://github.com/arxycth/aeropace",
+          "deploy": "https://aeropace.arxy.my.id"
+        },
+        "thumbnail": "/images/projects/Screenshot_3-9-2026_43757_aeropace.arxy.my.id.jpeg",
+        "featured": true
+      },
+      {
         "id": "tsunderepay",
         "title": "TsunderePay",
         "description": "Wallet Web3 eksperimental dengan asisten karakter tsundere yang bereaksi secara dinamis terhadap interaksi pengguna. Menggabungkan pengalaman blockchain modern dengan state-driven dialogue, multi-chain wallet, estimasi gas, dan antarmuka yang lebih personal.",
